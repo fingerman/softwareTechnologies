@@ -1,0 +1,1 @@
+db.getCollection('users').update({articles: {$exists: false}}, { $set: {articles: []}}, {multi: true})
