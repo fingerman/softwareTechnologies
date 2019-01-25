@@ -2,3 +2,4 @@ del/
 php-mvc-symfony/*
 !important php-mvc-symfony/symfony-blog/
 html-stuff/ 
+php-mvc-symfony/.idea/workspace.xml 
