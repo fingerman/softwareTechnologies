@@ -1,4 +1,3 @@
-del/
 php-mvc-symfony/*
 !important php-mvc-symfony/blog-symfony/
 html-stuff/ 
