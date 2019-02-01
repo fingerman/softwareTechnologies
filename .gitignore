@@ -4,4 +4,4 @@ php-mvc-symfony/*
 html-stuff/ 
 php-mvc-symfony/.idea/workspace.xml 
 express/*
-!important express/Blog/
+!important express/blog-nodejs/
