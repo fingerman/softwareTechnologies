@@ -18,5 +18,10 @@ PHP Symfony Demo Blog:
 ```
 $ cd php-mvc-symfony/blog-symfony/
 $ composer install
+$ php bin/console server:run
 ```
+Yor MySQL server should be running.   
 Edit your ```app/config/parameters.yml``` folder
+
+
+

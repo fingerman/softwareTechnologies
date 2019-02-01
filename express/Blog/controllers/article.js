@@ -1,12 +1,20 @@
-const Article = require(`mongoose`).model('Article');
+const mongoose = require('mongoose');
+//const Article = mongoose.model('Article');
+const Article = require('../models/Article');
 
 module.exports = {
+    index: (req, res) => {
+        Article.find({}).limit(6).populate('author').then(articles => {
+            res.render('home/index', {'articles' : articles});
+        });
+    },
+
     createGet: (req, res) => {
         res.render('article/create');
     },
 
     createPost: (req, res) => {
-    let articleArgs = req.body;
+        let articleArgs = req.body;
 
         let errorMsg = '';
 
@@ -25,19 +33,20 @@ module.exports = {
 
         articleArgs.author = req.user.id;
         Article.create(articleArgs).then(article => {
-            req.user.article.push(article.id);
+            req.user.articles.push(article.id);
             req.user.save(err => {
                 if (err) {
                     res.redirect('/', {error: err.message});
                 }
                 else {
-                    res.redirecct('/');
+                    res.redirect('/');
                 }
             });
-        })
-
-
+        });
     },
+
+
+
 
     details: (req, res) => {
         let id = req.params.id;
@@ -45,7 +54,7 @@ module.exports = {
         Article.findById(id).populate('author').then(article => {
             res.render('article/details', article)
         });
-    }
+    },
 };
 
 

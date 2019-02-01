@@ -1,5 +1,7 @@
 del/
 php-mvc-symfony/*
-!important php-mvc-symfony/symfony-blog/
+!important php-mvc-symfony/blog-symfony/
 html-stuff/ 
 php-mvc-symfony/.idea/workspace.xml 
+express/*
+!important express/Blog/

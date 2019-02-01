@@ -1,6 +1,6 @@
 const passport = require('passport');
 const LocalPassport = require('passport-local');
-const User = require('../../../../../../Users/computer/Desktop/softuni/Programming Fundamentials/SoftwareTechnologies/08. Software-Technologies-JavaScript-Blog-Basic-Functionality-Skeleton/SoftUniBlogSkeleton/SoftUniBlog/models/User');
+const User = require('./../models/User');
 
 const authenticateUser = (username, password, done) => {
     User.findOne({email: username}).then(user => {
