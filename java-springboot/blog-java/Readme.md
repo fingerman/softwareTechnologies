@@ -9,14 +9,16 @@ $ git clone https://github.com/fingerman/softwareTechnologies.git
 ```
 $ cd java-springboot/blog-java/
 # open this into your IDE. Configure SDK if necessary. 1.8.112 ind this project
-Basically the project is preconfigured. If you would like to start new project  
-•	From Core choose:
--	Security
--	DevTools
-•	From Template Engines choose:
--	Thymeleaf
-•	From SQL choose:
--	MySQL
+```
+Basically the project is preconfigured. If you would like to start new project
+    
++	From Core choose:  
+    -	Security  
+    -	DevTools  
++	From Template Engines choose:  
+    -	Thymeleaf  
++	From SQL choose:  
+    -	MySQL  
 
 ```
 Start your MySQL Server   

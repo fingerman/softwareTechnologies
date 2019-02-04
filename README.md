@@ -6,10 +6,23 @@ Basically you have 5 blogs with absolutely the same Frontend but different Backe
 So we have:  
 * [PHP with Symfony 3.4](https://github.com/fingerman/softwareTechnologies/tree/master/php-mvc-symfony/blog-symfony)
 * [JS with NodeJS](https://github.com/fingerman/softwareTechnologies/tree/master/express/blog-nodejs) 
-* Java with Spring //TODO
+* [Java with Spring](https://github.com/fingerman/softwareTechnologies/tree/master/java-springboot/blog-java)
 * C# with ASP.Net //TODO  
 * Python with Django //TODO
 
+
+This basic Demo Blog has the following functionalities implemented for all frameworks:  
+In the end of the whole tutorial, you should have blog which supports the following functionality:
+•	Register and Login Users + their Profiles  
+•	Create Articles
+•	Edit Articles
+•	Delete Articles
+•	Responsive Design using Bootstrap
+  
+=================================================
+![Blog Front](https://github.com/fingerman/softwareTechnologies/tree/master/blog-photos/blog-front.png)
+![User Registration](https://github.com/fingerman/softwareTechnologies/tree/master/blog-photos/register.png)
+![CRUD Article](https://github.com/fingerman/softwareTechnologies/tree/master/blog-photos/blog-crud.png)
 
 
 
