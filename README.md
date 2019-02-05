@@ -1,5 +1,5 @@
 ## DEMO BLOG
-================
+----
 
 A simple demo blog running on 5 - *FIVE* - different technologies and actually five different programming languages.   
 Basically you have 5 blogs with absolutely the same Frontend but different Backend architecture in terms of language and framework.  
@@ -20,7 +20,7 @@ In the end of the whole tutorial, you should have blog which supports the follow
 •	Responsive Design using Bootstrap  
 
 ### The DEMO BLOG Frontend    
-================    
+---      
 It looks like below for all different backend technologies        
 #### Blog Front:      
 ![Blog Front](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/front.png)
