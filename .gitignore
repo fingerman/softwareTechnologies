@@ -5,3 +5,4 @@ php-mvc-symfony/.idea/workspace.xml
 express/*
 !important express/blog-nodejs/
 express/blog-nodejs/.idea/workspace.xml 
+csharp-asp/blog-aspnet/Blog/App_Data/*
