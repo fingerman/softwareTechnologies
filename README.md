@@ -7,8 +7,8 @@ So we have:
 * [PHP with Symfony 3.4](https://github.com/fingerman/softwareTechnologies/tree/master/php-mvc-symfony/blog-symfony)
 * [JS with NodeJS](https://github.com/fingerman/softwareTechnologies/tree/master/express/blog-nodejs) 
 * [Java with Spring](https://github.com/fingerman/softwareTechnologies/tree/master/java-springboot/blog-java)
-* C# with ASP.Net //TODO  
-* Python with Django //TODO
+* [C# with ASP.Net](https://github.com/fingerman/softwareTechnologies/tree/master/csharp-asp/blog-aspnet)
+* [Python with Django]() //TODO
 
 
 This basic Demo Blog has the following functionalities implemented for all frameworks:  
