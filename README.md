@@ -19,12 +19,12 @@ In the end of the whole tutorial, you should have blog which supports the follow
 •	Delete Articles  
 •	Responsive Design using Bootstrap  
   
-=================================================
-![Blog Front](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/blog/front.png)
+=================================================  
+![Blog Front](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/front.png)
   
 ![User Registration](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/register.png)
   
-![CRUD Article](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/blog-crud.png)  
+![CRUD Article](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/crud.png)  
 
 
 
