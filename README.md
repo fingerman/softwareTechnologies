@@ -18,10 +18,11 @@ In the end of the whole tutorial, you should have blog which supports the follow
 •	Edit Articles  
 •	Delete Articles  
 •	Responsive Design using Bootstrap  
-  
-=================================================
-The DEMO BLOG Frontend looks like below for all technologies and frameworks:      
-#### Blog Front:    
+
+### The DEMO BLOG Frontend    
+================    
+It looks like below for all different backend technologies        
+#### Blog Front:      
 ![Blog Front](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/front.png)
 #### User Registration:    
 ![User Registration](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/register.png)
