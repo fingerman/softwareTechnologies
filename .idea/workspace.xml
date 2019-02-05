@@ -67,10 +67,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="26" column="99" lean-forward="true" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
+              <first_editor relative-caret-position="54">
+                <caret line="22" column="78" lean-forward="false" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
                 <folding>
-                  <marker date="1549380849434" expanded="true" signature="686:1017" ph="This basic Demo Blog h...strap" />
+                  <marker date="1549381081754" expanded="true" signature="686:1017" ph="This basic Demo Blog h...strap" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -368,12 +368,12 @@
       <workItem from="1515068530844" duration="100000" />
       <workItem from="1549035995786" duration="2418000" />
       <workItem from="1549299535786" duration="239000" />
-      <workItem from="1549380447134" duration="400000" />
+      <workItem from="1549380447134" duration="629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18606000" />
+    <option name="totallyTimeSpent" value="18835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -438,7 +438,7 @@
           <first_editor relative-caret-position="480">
             <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
             <folding>
-              <marker date="1549380849434" expanded="true" signature="686:1017" ph="This basic Demo Blog h...strap" />
+              <marker date="1549381081754" expanded="true" signature="686:1017" ph="This basic Demo Blog h...strap" />
             </folding>
           </first_editor>
           <second_editor />
@@ -551,10 +551,10 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="26" column="99" lean-forward="true" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
+          <first_editor relative-caret-position="54">
+            <caret line="22" column="78" lean-forward="false" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
             <folding>
-              <marker date="1549380849434" expanded="true" signature="686:1017" ph="This basic Demo Blog h...strap" />
+              <marker date="1549381081754" expanded="true" signature="686:1017" ph="This basic Demo Blog h...strap" />
             </folding>
           </first_editor>
           <second_editor />
