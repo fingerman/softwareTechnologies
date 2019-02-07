@@ -1,11 +1,10 @@
-# CRM REST Django
+# Demo Blog with Django 2.1
 
-Basic REST Queries to a CRM using the Django Framework v1.11
-
+Basic Blog with the Django Framework v2.1.5
 
 
 ## Getting Started
-1. Activate the virtual environment
+1. After cloning the repo activate the virtual environment
 2. Install dependencies
 3. Change create conf.cnf with your settings in the base dir. See DATABASES in webshop/settings.py
 4. Server start
@@ -32,11 +31,11 @@ git clone https://github.com/fingerman/softwareTechnologies.git
 ```
 ##### Python Django Demo Blog:
 ```
-cd python-django/
+cd python-django
 
 venv\Scripts\activate
 pip install -r requirements.txt
-cd webshop
+
 python manage.py runserver  
 
 # apply migrations to the DB
@@ -46,7 +45,5 @@ python manage.py migrate
 ```
  
 
-## Acknowledgments
 
-* [SoftUni Sofia](http://www.softuni.bg) - code snippets
 

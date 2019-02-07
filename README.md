@@ -36,4 +36,4 @@ It looks like below for all different backend technologies
 
 ## Acknowledgments
 
-* [SoftUni Sofia](http://www.softuni.bg) - code snippets
+* [SoftUni Sofia](http://www.softuni.bg/en) - code snippets
