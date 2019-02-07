@@ -23,11 +23,17 @@ django-mysql==2.4.1
 see [requirements.txt](http://www.github.com/fingerman...) 
 
 ```python_django/settings.py```  contains your DB configuration.  
-You can edit your DB connection settings from ```local.cnf```   
+You can edit your DB connection settings from ```local.cnf```  
+   
 
-
+To start with the repo:
+```bash  
+git clone https://github.com/fingerman/softwareTechnologies.git
 ```
-clone ...
+##### Python Django Demo Blog:
+```
+cd python-django/
+
 venv\Scripts\activate
 pip install -r requirements.txt
 cd webshop
