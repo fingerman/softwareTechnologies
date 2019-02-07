@@ -27,8 +27,13 @@ It looks like below for all different backend technologies
 #### User Registration:    
 ![User Registration](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/register.png)
 #### Article CRUD:      
-![CRUD Article](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/crud.png)  
+![CRUD Article](https://github.com/fingerman/softwareTechnologies/blob/master/blog-photos/crud.png)    
 
 
 
 
+
+
+## Acknowledgments
+
+* [SoftUni Sofia](http://www.softuni.bg) - code snippets
