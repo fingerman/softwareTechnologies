@@ -1,4 +1,4 @@
-## DEMO BLOG
+﻿## DEMO BLOG
 ----
 
 A simple demo blog running on 5 - *FIVE* - different technologies and actually five different programming languages.   
@@ -8,7 +8,7 @@ So we have:
 * [JS with NodeJS](https://github.com/fingerman/softwareTechnologies/tree/master/express/blog-nodejs) 
 * [Java with Spring](https://github.com/fingerman/softwareTechnologies/tree/master/java-springboot/blog-java)
 * [C# with ASP.Net](https://github.com/fingerman/softwareTechnologies/tree/master/csharp-asp/blog-aspnet)
-* [Python with Django 2.1](https://github.com/fingerman/softwareTechnologies/tree/master/python-django) //TODO (in Dev)
+* [Python with Django 2.1](https://github.com/fingerman/softwareTechnologies/tree/master/python_django) 
 
 
 This basic Demo Blog has the following functionalities implemented for all frameworks:  

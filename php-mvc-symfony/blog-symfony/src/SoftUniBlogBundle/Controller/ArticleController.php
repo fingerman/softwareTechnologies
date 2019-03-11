@@ -61,5 +61,4 @@ class ArticleController extends Controller
         return $this->render('article/article.html.twig', ['article' => $article]);
     }
 
-
 }
