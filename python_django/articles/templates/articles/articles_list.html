@@ -2,15 +2,35 @@
 
 {% block content %}
 
-<h1>Article List</h1>
-<div class="articles">
-    {% for article in articles %}
-        <div class="article">
-            <h2><a href="{%   url 'articles:detail' slug=article.slug %}">{{ article.title }}</a> </h2>
-            <p>{{ article.snippet }}</p>
-            <p>{{ article.date }}</p>
-            <p class="author">added by {{ article.author.username }}</p>
+    <div class="container body-content">
+        <div class="row">
+            {% for article in articles %}
+                <div class="col-md-6">
+                    <article>
+                        <header>
+                            <h2>{{ article.title }}</h2>
+                        </header>
+
+                        <p>
+                            {{ article.snippet }}
+                        </p>
+
+                        <small class="author">
+                            {{ article.author.username }}
+                        </small>
+
+                        <footer>
+                            <div class="pull-right">
+                                <a class="btn btn-default btn-xs"
+                                   href="{% url 'articles:detail' slug=article.slug %}">Read more &raquo;</a>
+                            </div>
+                        </footer>
+                    </article>
+                </div>
+            {% endfor %}
         </div>
-    {% endfor %}
-</div>
+    </div>
+
+
+
 {% endblock %}

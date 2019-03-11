@@ -7056,3 +7056,7 @@ article .author  {
 article .author  {
   content: '\2014 \00A0';
 }
+.logout-button {
+  border: none !important;
+  background: none !important;
+}

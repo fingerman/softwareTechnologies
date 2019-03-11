@@ -2,14 +2,30 @@
 
 {% block content %}
 
-    <h1>Article List</h1>
-    <div class="article-detail">
-        <div class="article">
-            <img src="{{ article.thumb.url }}"/>
-            <h2>{{ article.title }} </h2>
-            <p>{{ article.body }}</p>
-            <p>{{ article.date }}</p>
-            <h3>Written by {{ article.author.username }}</h3>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                <article>
+                    <header>
+                        <h2>{{ article.title }}</h2>
+                    </header>
+
+                    <p>
+                        {{ article.body }}
+                    </p>
+
+                    <small class="author">
+                        {{ article.author.username }}
+                    </small>
+
+                    <footer>
+                        <div class="pull-right">
+                            <a class="btn btn-default btn-xs" href="{% url 'articles:list' %}">back &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
         </div>
     </div>
+
 {% endblock %}

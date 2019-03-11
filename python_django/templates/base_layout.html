@@ -5,33 +5,76 @@
 <head>
     <meta charset="UTF-8">
     <title>Articles</title>
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-datetimepicker.min.css' %}">
 </head>
+
 <body>
-<header class="wrapper">
-    <h1><a href="{% url 'articles:list' %}">Link All Articles</a></h1>
-    <nav>
-        <ul>
-            {% if user.is_authenticated %}
-                <li>
-                    <form class="logout-link" action="{% url 'accounts:logout' %}" method="post">
-                        {% csrf_token %}
-                        <button type="submit">Logout</button>
-                    </form>
-                </li>
-                <li>
-                    <a href="{% url 'articles:create' %}">Create new Article</a>
-                </li>
-            {% else %}
-                <li><a href="{% url 'accounts:login' %}">Login</a></li>
-                <li><a href="{% url 'accounts:signup' %}">Register</a></li>
-            {% endif %}
-        </ul>
-    </nav>
-</header>
+
+
+{% block header %}
+    <header>
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="{% url 'articles:list' %}" class="navbar-brand">DEMO BLOG</a>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        {% if user.is_authenticated %}
+                            <li>
+                                <a href="{% url 'articles:create' %}">
+                                    Create Article
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <form action="{% url 'accounts:logout' %}" method="post">
+                                        {% csrf_token %}
+                                        <button class="logout-button" type="submit">Logout</button>
+                                    </form>
+                                </a>
+                            </li>
+                        {% else %}
+                            <li>
+                                <a href="{% url 'accounts:signup' %}">
+                                    REGISTER
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'accounts:login' %}">
+                                    LOGIN
+                                </a>
+                            </li>
+
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock %}
+
+
 <div class="wrapper">
     {% block content %}
     {% endblock %}
 </div>
-</body>
+
+
+
+{% block javascripts %}
+    <script src="{% static 'js/jquery-2.2.4.min.js' %}"></script>
+    <script src="{% static 'js/moment.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap-datetimepicker.min.js' %}"></script>
+{% endblock %}
+
+</body
 </html>
